@@ -1,46 +1,47 @@
-import subprocess
+import yaml
+from checkers import checkout
+
+with open('config.yaml') as f:
+    data = yaml.safe_load(f)
 
 
-tst = "/home/user/tst"
-out = "/home/user/out"
-folder1 = "/home/user/folder1"
+class TestPositive:
 
+    # Создание и обноление архива
+    def test_step1(self):
+        result1 = checkout("cd {}; 7z a {}/arx2".format(data["folder_in"], data["folder_out"]), "Everything is Ok")
+        result2 = checkout("cd {}; ls".format(data["folder_out"]), "arx2.7z")
+        assert result1 and result2, "test1 FAIL"
 
-def checkout(cmd, text):
-    result = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE, encoding='utf-8')
-    if text in result.stdout and result.returncode == 0:
-        print('SUCCES')
-        return True
-    else:
-        print('FAIL')
-        return False
+    # Извлечение файлов из архива
+    def test_step2(self, make_files):
+        result1 = checkout("cd {}; 7z e arx2.7z -o{} -y".format(data["folder_out"], data["folder_ext"]),
+                           "Everything is Ok")
+        result2 = checkout("cd {}; ls".format(data["folder_ext"]), make_files[0])
+        assert result1 and result2, "test2 FAIL"
 
+    # Целостность архива
+    def test_step3(self):
+        assert checkout("cd {}; 7z t arx2.7z".format(data["folder_out"]), "Everything is Ok"), "test3 FAIL"
 
-# Создание и обноление архива
-def test_step1():
-    result1 = checkout("cd {}; 7z a {}/arx2".format(tst, out), "Everything is Ok")
-    result2 = checkout("cd {}; ls".format(out), "arx2.7z")
-    assert result1 and result2, "test1 FAIL"
+    # Обновление данных
+    def test_step4(self):
+        assert checkout("cd {}; 7z u {}/arx2.7z".format(data["folder_in"], data["folder_out"]),
+                        "Everything is Ok"), "test4 FAIL"
 
+    # Очистить содержимое архива
+    # def test_step5(self):
+    #   assert checkout("cd {}; 7z d arx2.7z".format(data["folder_out"]), "Everything is Ok"), "test5 FAIL"
 
-# Извлечение файлов из архива
-def test_step2():
-    result1 = checkout("cd {}; 7z e arx2.7z -o{} -y".format(out, folder1), "Everything is Ok")
-    result2 = checkout("cd {}; ls".format(folder1), "qwe")
-    result3 = checkout("cd {}; ls".format(folder1), "rty")
-    assert result1 and result2 and result3, "test2 FAIL"
+    # Вывести список содержимого архива
+    def test_step6(self):
+        result1 = checkout("cd {}; 7z l arx2.7z".format(data["folder_out"]), "Path = arx2.7z")
+        result2 = checkout("cd {}; ls".format(data["folder_out"]), "arx2.7z")
+        assert result1 and result2, "test6 FAIL"
 
-
-# Целостность архива
-def test_step3():
-    assert checkout("cd {}; 7z t arx2.7z".format(out), "Everything is Ok"), "test3 FAIL"
-
-
-# Обновление данных
-def test_step4():
-    assert checkout("cd {}; 7z u {}/arx2.7z".format(tst, out), "Everything is Ok"), "test4 FAIL"
-
-
-# Очистить содержимое архива
-# def test_step5():
-#   assert checkout("cd {}; 7z d arx2.7z".format(out), "Everything is Ok"), "test5 FAIL"
+    # Извлечение архива в указаную директорию
+    def test_step7(self):
+        result1 = checkout("cd {}; 7z x arx2.7z -o{} -y".format(data["folder_out"], data["folder_ext2"]),
+                           "Everything is Ok")
+        result2 = checkout("cd {}; ls".format(data["folder_ext2"]), "SYZB1")
+        assert result1 and result2, "test7 FAIL"
