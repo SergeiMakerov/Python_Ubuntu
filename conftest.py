@@ -3,6 +3,8 @@ import string
 import pytest
 from checkers import checkout
 import yaml
+from datetime import datetime
+import psutil
 
 
 with open('config.yaml') as f:
@@ -40,3 +42,16 @@ def make_bad_arx():
     checkout("truncate -s 1 {}/bad_arx.7z".format(data["folder_out"]), "")
     # yield "bad_arx"
     # checkout("rm -f {}/arxbad.{}".format(data["folder_out"], data["type"]), "")
+
+
+@pytest.fixture(autouse=True)
+def stat():
+    with open('config.yaml') as f:
+        data = yaml.safe_load(f)
+
+    current_date = datetime.now()
+    proc = psutil.getloadavg()
+    inf = str("Count = {} Size = {}".format(data["count"], data["bs"]))
+
+    with open("stat.txt", "a", encoding='utf8') as file:
+        file.write(str(f'{current_date} {inf}  {proc} \n'))
