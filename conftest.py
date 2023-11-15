@@ -46,9 +46,6 @@ def make_bad_arx():
 
 @pytest.fixture(autouse=True)
 def stat():
-    with open('config.yaml') as f:
-        data = yaml.safe_load(f)
-
     current_date = datetime.now()
     proc = psutil.getloadavg()
     inf = str("Count = {} Size = {}".format(data["count"], data["bs"]))
