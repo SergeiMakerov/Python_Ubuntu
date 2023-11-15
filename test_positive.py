@@ -9,8 +9,8 @@ class TestPositive:
 
     # Создание и обноление архива
     def test_step1(self):
-        result1 = checkout("cd {}; 7z a {}/arx2".format(data["folder_in"], data["folder_out"]), "Everything is Ok")
-        result2 = checkout("cd {}; ls".format(data["folder_out"]), "arx2.7z")
+        result1 = checkout("cd {}; 7z a {}/arx2 -t{}".format(data["folder_in"], data["folder_out"], data["type_archive"]), "Everything is Ok")
+        result2 = checkout("cd {}; ls".format(data["folder_out"]), "arx2.zip")
         assert result1 and result2, "test1 FAIL"
 
     # Извлечение файлов из архива
