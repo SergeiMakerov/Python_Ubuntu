@@ -1,0 +1,401 @@
+ноя 20 12:02:27 userpc dbus-daemon[21055]: [session uid=1001 pid=21055] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.89' (uid=1001 pid=21849 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 12:02:27 userpc systemd[21031]: Starting Tracker metadata extractor...
+ноя 20 12:02:28 userpc dbus-daemon[21055]: [session uid=1001 pid=21055] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 12:02:28 userpc systemd[21031]: Started Tracker metadata extractor.
+ноя 20 12:02:28 userpc sudo[25668]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 12:02:28 userpc sudo[25668]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:02:30 userpc sudo[25668]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:02:30 userpc sudo[25740]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 12:02:30 userpc sudo[25740]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:02:30 userpc sudo[25740]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:02:31 userpc sudo[25848]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 12:02:31 userpc sudo[25848]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:02:33 userpc sudo[25848]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:02:33 userpc sudo[25920]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 12:02:33 userpc sudo[25920]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:02:33 userpc sudo[25920]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:16:08 userpc pkexec[26099]: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:25:12 userpc ubuntu-report[22072]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+ноя 20 12:49:15 userpc dbus-daemon[21055]: [session uid=1001 pid=21055] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.89' (uid=1001 pid=21849 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 12:49:15 userpc systemd[21031]: Starting Tracker metadata extractor...
+ноя 20 12:49:15 userpc dbus-daemon[21055]: [session uid=1001 pid=21055] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 12:49:15 userpc systemd[21031]: Started Tracker metadata extractor.
+ноя 20 12:49:15 userpc sudo[26496]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 12:49:15 userpc sudo[26496]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:49:17 userpc sudo[26496]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:49:17 userpc sudo[26568]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 12:49:17 userpc sudo[26568]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:49:17 userpc sudo[26568]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:49:26 userpc dbus-daemon[21055]: [session uid=1001 pid=21055] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.89' (uid=1001 pid=21849 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 12:49:26 userpc systemd[21031]: Starting Tracker metadata extractor...
+ноя 20 12:49:26 userpc dbus-daemon[21055]: [session uid=1001 pid=21055] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 12:49:26 userpc systemd[21031]: Started Tracker metadata extractor.
+ноя 20 12:49:26 userpc sudo[27129]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 12:49:26 userpc sudo[27129]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:49:28 userpc sudo[27129]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:49:28 userpc sudo[27200]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 12:49:28 userpc sudo[27200]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:49:28 userpc sudo[27200]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:52:57 userpc dbus-daemon[21055]: [session uid=1001 pid=21055] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.89' (uid=1001 pid=21849 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 12:52:57 userpc systemd[21031]: Starting Tracker metadata extractor...
+ноя 20 12:52:58 userpc dbus-daemon[21055]: [session uid=1001 pid=21055] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 12:52:58 userpc systemd[21031]: Started Tracker metadata extractor.
+ноя 20 12:52:58 userpc sudo[28080]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 12:52:58 userpc sudo[28080]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:52:59 userpc sudo[28080]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:53:00 userpc sudo[28151]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 12:53:00 userpc sudo[28151]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:53:00 userpc sudo[28151]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:54:01 userpc dbus-daemon[21055]: [session uid=1001 pid=21055] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.89' (uid=1001 pid=21849 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 12:54:01 userpc systemd[21031]: Starting Tracker metadata extractor...
+ноя 20 12:54:02 userpc dbus-daemon[21055]: [session uid=1001 pid=21055] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 12:54:02 userpc systemd[21031]: Started Tracker metadata extractor.
+ноя 20 12:54:02 userpc sudo[28634]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 12:54:02 userpc sudo[28634]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:54:03 userpc sudo[28634]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:54:04 userpc sudo[28705]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 12:54:04 userpc sudo[28705]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:54:04 userpc sudo[28705]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:55:09 userpc dbus-daemon[21055]: [session uid=1001 pid=21055] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.89' (uid=1001 pid=21849 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 12:55:09 userpc systemd[21031]: Starting Tracker metadata extractor...
+ноя 20 12:55:09 userpc dbus-daemon[21055]: [session uid=1001 pid=21055] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 12:55:09 userpc systemd[21031]: Started Tracker metadata extractor.
+ноя 20 12:55:10 userpc sudo[29200]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 12:55:10 userpc sudo[29200]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:55:12 userpc sudo[29200]: pam_unix(sudo:session): session closed for user root
+ноя 20 12:55:13 userpc sudo[29276]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 12:55:13 userpc sudo[29276]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 12:55:13 userpc sudo[29276]: pam_unix(sudo:session): session closed for user root
+ноя 20 16:52:54 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+ноя 20 16:52:54 userpc systemd[6770]: Started Portal service (GNOME implementation).
+ноя 20 16:52:55 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.47' (uid=1001 pid=7240 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+ноя 20 16:52:55 userpc systemd[6770]: Starting Portal service (GTK/GNOME implementation)...
+ноя 20 16:52:57 userpc systemd[6770]: Started GNOME color management service.
+ноя 20 16:52:57 userpc systemd[6770]: Reached target GNOME color management target.
+ноя 20 16:52:57 userpc systemd[6770]: Started GNOME keyboard configuration service.
+ноя 20 16:52:57 userpc systemd[6770]: Reached target GNOME keyboard configuration target.
+ноя 20 16:52:57 userpc systemd[6770]: Started GNOME power management service.
+ноя 20 16:52:57 userpc systemd[6770]: Reached target GNOME power management target.
+ноя 20 16:52:57 userpc systemd[6770]: Started GNOME keyboard shortcuts service.
+ноя 20 16:52:57 userpc systemd[6770]: Reached target GNOME keyboard shortcuts target.
+ноя 20 16:52:57 userpc systemd[6770]: Started GNOME Wacom tablet support service.
+ноя 20 16:52:57 userpc systemd[6770]: Reached target GNOME Wacom tablet support target.
+ноя 20 16:52:57 userpc systemd[6770]: Reached target GNOME Session.
+ноя 20 16:52:57 userpc systemd[6770]: Reached target GNOME Wayland Session (session: ubuntu).
+ноя 20 16:52:57 userpc systemd[6770]: Reached target Current graphical user session.
+ноя 20 16:52:57 userpc systemd[6770]: Condition check resulted in GNOME Initial Setup being skipped.
+ноя 20 16:52:57 userpc systemd[6770]: Starting Tracker file system data miner...
+ноя 20 16:52:57 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating service name='org.gnome.ScreenSaver' requested by ':1.66' (uid=1001 pid=7288 comm="/usr/libexec/gsd-power " label="unconfined")
+ноя 20 16:52:57 userpc gsd-media-keys[7287]: Failed to grab accelerator for keybinding settings:playback-repeat
+ноя 20 16:52:57 userpc gsd-media-keys[7287]: Failed to grab accelerator for keybinding settings:hibernate
+ноя 20 16:52:57 userpc gsd-color[7278]: failed to get edid: unable to get EDID for output
+ноя 20 16:52:57 userpc gnome-shell[6966]: GNOME Shell started at Mon Nov 20 2023 16:52:52 GMT+0300 (MSK)
+ноя 20 16:52:57 userpc gnome-shell[6966]: Registering session with GDM
+ноя 20 16:52:57 userpc gsd-color[7278]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+ноя 20 16:52:57 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.gnome.ScreenSaver'
+ноя 20 16:52:58 userpc ubuntu-report[6782]: level=error msg="data were not delivered successfully to metrics server, retrying in 30s"
+ноя 20 16:52:58 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+ноя 20 16:52:58 userpc systemd[6770]: Started Portal service (GTK/GNOME implementation).
+ноя 20 16:52:58 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+ноя 20 16:52:58 userpc systemd[6770]: Started Tracker file system data miner.
+ноя 20 16:52:59 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.portal.Desktop'
+ноя 20 16:52:59 userpc systemd[6770]: Started Portal service.
+ноя 20 16:52:59 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 16:52:59 userpc systemd[6770]: Reached target Main User Target.
+ноя 20 16:52:59 userpc systemd[6770]: Startup finished in 11.799s.
+ноя 20 16:52:59 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.FileManager1'
+ноя 20 16:53:00 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating service name='org.gnome.ArchiveManager1' requested by ':1.88' (uid=1001 pid=7514 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+ноя 20 16:53:00 userpc snapd-desktop-i[7233]: New theme: gtk=Yaru icon=Yaru cursor=Yaru, sound=Yaru
+ноя 20 16:53:00 userpc snapd-desktop-i[7233]: All available theme snaps installed
+ноя 20 16:53:01 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.gnome.ArchiveManager1'
+ноя 20 16:53:01 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.88' (uid=1001 pid=7514 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+ноя 20 16:53:01 userpc systemd[6770]: Starting Virtual filesystem metadata service...
+ноя 20 16:53:01 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.gtk.vfs.Metadata'
+ноя 20 16:53:01 userpc systemd[6770]: Started Virtual filesystem metadata service.
+ноя 20 16:53:01 userpc gnome-shell[6966]: DING: Detected async api for thumbnails
+ноя 20 16:53:01 userpc gnome-shell[6966]: DING: GNOME nautilus 42.2
+ноя 20 16:53:02 userpc pulseaudio[6779]: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ноя 20 16:53:07 userpc nautilus[7235]: Called "net usershare info" but it failed: Не удалось выполнить дочерний процесс "net" (No such file or directory)
+ноя 20 16:53:30 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating service name='org.gnome.gedit' requested by ':1.27' (uid=1001 pid=6966 comm="/usr/bin/gnome-shell " label="unconfined")
+ноя 20 16:53:30 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.gnome.gedit'
+ноя 20 16:53:38 userpc ubuntu-report[6782]: level=error msg="data were not delivered successfully to metrics server, retrying in 60s"
+ноя 20 16:53:52 userpc gnome-shell[6966]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+ноя 20 16:53:52 userpc gnome-shell[6966]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+ноя 20 16:53:52 userpc gnome-shell[6966]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+ноя 20 16:53:52 userpc gnome-shell[6966]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+ноя 20 16:53:52 userpc gnome-shell[6966]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+ноя 20 16:53:52 userpc gnome-shell[6966]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+ноя 20 16:53:52 userpc gnome-shell[6966]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+ноя 20 16:53:52 userpc gnome-shell[6966]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+ноя 20 16:53:52 userpc gnome-shell[6966]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+ноя 20 16:53:53 userpc systemd[6770]: Started Application launched by gnome-session-binary.
+ноя 20 16:53:53 userpc systemd[6770]: Started Application launched by gnome-session-binary.
+ноя 20 16:54:01 userpc pkexec[7717]: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 16:54:02 userpc ubuntu-appindicators@ubuntu.com[6966]: unable to update icon for software-update-available
+ноя 20 16:54:02 userpc ubuntu-appindicators@ubuntu.com[6966]: unable to update icon for livepatch
+ноя 20 16:54:48 userpc ubuntu-report[6782]: level=error msg="data were not delivered successfully to metrics server, retrying in 120s"
+ноя 20 16:55:26 userpc gnome-shell[6966]: clutter_actor_set_allocation_internal: assertion '!isnan (box->x1) && !isnan (box->x2) && !isnan (box->y1) && !isnan (box->y2)' failed
+ноя 20 16:55:26 userpc gnome-shell[6966]: ../clutter/clutter/clutter-actor.c:9294: Actor '<unnamed>[<StDrawingArea>:0x560780912030]' tried to allocate a size of -2147483648.00 x -2147483648.00
+ноя 20 16:55:26 userpc gnome-shell[6966]: ../clutter/clutter/clutter-actor.c:9294: Actor '<unnamed>[<StBin>:0x560780911340]' tried to allocate a size of -2147483648.00 x -2147483648.00
+ноя 20 16:55:26 userpc update-notifier[7682]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+ноя 20 16:55:26 userpc update-notifier[7682]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+ноя 20 16:55:33 userpc gsd-color[7278]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+ноя 20 16:56:43 userpc sudo[8440]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 16:56:43 userpc sudo[8440]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 16:56:43 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 16:56:43 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 16:56:43 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 16:56:43 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 16:56:44 userpc sudo[8440]: pam_unix(sudo:session): session closed for user root
+ноя 20 16:56:45 userpc sudo[8519]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 16:56:45 userpc sudo[8519]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 16:56:45 userpc sudo[8519]: pam_unix(sudo:session): session closed for user root
+ноя 20 16:56:51 userpc sudo[9108]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 16:56:51 userpc sudo[9108]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 16:56:53 userpc sudo[9108]: pam_unix(sudo:session): session closed for user root
+ноя 20 16:56:53 userpc sudo[9182]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 16:56:53 userpc sudo[9182]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 16:56:53 userpc sudo[9182]: pam_unix(sudo:session): session closed for user root
+ноя 20 16:56:58 userpc ubuntu-report[6782]: level=error msg="data were not delivered successfully to metrics server, retrying in 240s"
+ноя 20 17:01:08 userpc ubuntu-report[6782]: level=error msg="data were not delivered successfully to metrics server, retrying in 480s"
+ноя 20 17:01:15 userpc sudo[10187]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 17:01:15 userpc sudo[10187]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:01:15 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 17:01:15 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 17:01:15 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 17:01:15 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 17:01:16 userpc sudo[10187]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:01:17 userpc sudo[10264]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 17:01:17 userpc sudo[10264]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:01:17 userpc sudo[10264]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:05:00 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 17:05:00 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 17:05:00 userpc sudo[10479]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 17:05:00 userpc sudo[10479]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:05:00 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 17:05:00 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 17:05:01 userpc sudo[10479]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:05:02 userpc sudo[10556]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 17:05:02 userpc sudo[10556]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:05:02 userpc sudo[10556]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:07:49 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 17:07:49 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 17:07:49 userpc sudo[11053]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 17:07:49 userpc sudo[11053]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:07:49 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 17:07:49 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 17:07:50 userpc sudo[11053]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:07:51 userpc sudo[11129]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 17:07:51 userpc sudo[11129]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:07:51 userpc sudo[11129]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:09:18 userpc ubuntu-report[6782]: level=error msg="data were not delivered successfully to metrics server, retrying in 960s"
+ноя 20 17:15:04 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 17:15:04 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 17:15:04 userpc sudo[11742]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 17:15:04 userpc sudo[11742]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:15:04 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 17:15:04 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 17:15:06 userpc sudo[11742]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:15:06 userpc sudo[11819]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 17:15:06 userpc sudo[11819]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:15:06 userpc sudo[11819]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:25:28 userpc ubuntu-report[6782]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+ноя 20 17:29:59 userpc pkexec[12310]: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:36:59 userpc sudo[12490]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 17:36:59 userpc sudo[12490]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:36:59 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 17:36:59 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 17:36:59 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 17:36:59 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 17:37:00 userpc sudo[12490]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:37:00 userpc sudo[12567]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 17:37:00 userpc sudo[12567]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:37:01 userpc sudo[12567]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:39:37 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 17:39:37 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 17:39:38 userpc sudo[13101]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 17:39:38 userpc sudo[13101]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:39:38 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 17:39:38 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 17:39:39 userpc sudo[13101]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:39:39 userpc sudo[13177]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 17:39:39 userpc sudo[13177]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:39:39 userpc sudo[13177]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:44:21 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 17:44:21 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 17:44:21 userpc sudo[13742]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 17:44:21 userpc sudo[13742]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:44:21 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 17:44:21 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 17:44:22 userpc sudo[13742]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:44:23 userpc sudo[13819]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 17:44:23 userpc sudo[13819]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:44:23 userpc sudo[13819]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:45:53 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 17:45:53 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 17:45:54 userpc sudo[14035]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 17:45:54 userpc sudo[14035]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:45:54 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 17:45:54 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 17:45:55 userpc sudo[14035]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:45:55 userpc sudo[14111]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 17:45:55 userpc sudo[14111]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:45:56 userpc sudo[14111]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:46:51 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 17:46:51 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 17:46:52 userpc sudo[14294]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 17:46:52 userpc sudo[14294]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:46:52 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 17:46:52 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 17:46:53 userpc sudo[14294]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:46:53 userpc sudo[14370]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 17:46:53 userpc sudo[14370]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:46:54 userpc sudo[14370]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:47:27 userpc sudo[14555]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 17:47:27 userpc sudo[14555]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:47:27 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 17:47:27 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 17:47:27 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 17:47:27 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 17:47:28 userpc sudo[14555]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:47:28 userpc sudo[14631]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 17:47:28 userpc sudo[14631]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:47:29 userpc sudo[14631]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:52:28 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 17:52:28 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 17:52:28 userpc sudo[15259]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 17:52:28 userpc sudo[15259]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:52:29 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 17:52:29 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 17:52:30 userpc sudo[15259]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:52:30 userpc sudo[15335]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 17:52:30 userpc sudo[15335]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 17:52:30 userpc sudo[15335]: pam_unix(sudo:session): session closed for user root
+ноя 20 17:55:38 userpc ubuntu-report[6782]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+ноя 20 18:00:27 userpc sudo[15926]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 18:00:27 userpc sudo[15926]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:00:27 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 18:00:27 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 18:00:27 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 18:00:27 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 18:00:28 userpc sudo[15926]: pam_unix(sudo:session): session closed for user root
+ноя 20 18:00:29 userpc sudo[16002]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 18:00:29 userpc sudo[16002]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:00:29 userpc sudo[16002]: pam_unix(sudo:session): session closed for user root
+ноя 20 18:02:21 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 18:02:21 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 18:02:21 userpc sudo[16534]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 18:02:21 userpc sudo[16534]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:02:21 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 18:02:21 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 18:02:22 userpc sudo[16534]: pam_unix(sudo:session): session closed for user root
+ноя 20 18:02:23 userpc sudo[16609]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 18:02:23 userpc sudo[16609]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:02:23 userpc sudo[16609]: pam_unix(sudo:session): session closed for user root
+ноя 20 18:07:42 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 18:07:42 userpc sudo[17157]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 18:07:42 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 18:07:42 userpc sudo[17157]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:07:43 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 18:07:43 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 18:07:44 userpc sudo[17157]: pam_unix(sudo:session): session closed for user root
+ноя 20 18:07:44 userpc sudo[17233]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 18:07:44 userpc sudo[17233]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:07:44 userpc sudo[17233]: pam_unix(sudo:session): session closed for user root
+ноя 20 18:09:24 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 18:09:24 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 18:09:25 userpc sudo[17813]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 18:09:25 userpc sudo[17813]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:09:25 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 18:09:25 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 18:09:26 userpc sudo[17813]: pam_unix(sudo:session): session closed for user root
+ноя 20 18:09:26 userpc sudo[17889]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 18:09:26 userpc sudo[17889]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:09:26 userpc sudo[17889]: pam_unix(sudo:session): session closed for user root
+ноя 20 18:10:48 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 18:10:48 userpc sudo[18159]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 18:10:48 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 18:10:48 userpc sudo[18159]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:10:48 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 18:10:48 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 18:10:49 userpc sudo[18159]: pam_unix(sudo:session): session closed for user root
+ноя 20 18:10:50 userpc sudo[18235]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 18:10:50 userpc sudo[18235]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:10:50 userpc sudo[18235]: pam_unix(sudo:session): session closed for user root
+ноя 20 18:19:48 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 18:19:48 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 18:19:48 userpc sudo[18810]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 18:19:48 userpc sudo[18810]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:19:48 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 18:19:48 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 18:19:49 userpc sudo[18810]: pam_unix(sudo:session): session closed for user root
+ноя 20 18:19:50 userpc sudo[18887]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 18:19:50 userpc sudo[18887]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:19:50 userpc sudo[18887]: pam_unix(sudo:session): session closed for user root
+ноя 20 18:25:48 userpc ubuntu-report[6782]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+ноя 20 18:32:59 userpc pkexec[19363]: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 18:55:59 userpc ubuntu-report[6782]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+ноя 20 19:03:00 userpc sudo[19846]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 19:03:00 userpc sudo[19846]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 19:03:00 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 19:03:00 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 19:03:00 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 19:03:00 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 19:03:01 userpc sudo[19846]: pam_unix(sudo:session): session closed for user root
+ноя 20 19:03:02 userpc sudo[19922]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 19:03:02 userpc sudo[19922]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 19:03:02 userpc sudo[19922]: pam_unix(sudo:session): session closed for user root
+ноя 20 19:14:36 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 19:14:36 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 19:14:36 userpc sudo[20506]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 19:14:36 userpc sudo[20506]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 19:14:36 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 19:14:36 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 19:14:38 userpc sudo[20506]: pam_unix(sudo:session): session closed for user root
+ноя 20 19:14:38 userpc sudo[20583]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 19:14:38 userpc sudo[20583]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 19:14:38 userpc sudo[20583]: pam_unix(sudo:session): session closed for user root
+ноя 20 19:17:37 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 19:17:37 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 19:17:37 userpc sudo[21132]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 19:17:37 userpc sudo[21132]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 19:17:38 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 19:17:38 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 19:17:39 userpc sudo[21132]: pam_unix(sudo:session): session closed for user root
+ноя 20 19:17:39 userpc sudo[21208]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 19:17:39 userpc sudo[21208]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 19:17:40 userpc sudo[21208]: pam_unix(sudo:session): session closed for user root
+ноя 20 19:19:39 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 19:19:39 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 19:19:39 userpc sudo[21808]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 19:19:39 userpc sudo[21808]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 19:19:39 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 19:19:39 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 19:19:40 userpc sudo[21808]: pam_unix(sudo:session): session closed for user root
+ноя 20 19:19:41 userpc sudo[21884]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 19:19:41 userpc sudo[21884]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 19:19:41 userpc sudo[21884]: pam_unix(sudo:session): session closed for user root
+ноя 20 19:20:35 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 19:20:35 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 19:20:35 userpc sudo[22110]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 19:20:35 userpc sudo[22110]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 19:20:36 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 19:20:36 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 19:20:37 userpc sudo[22110]: pam_unix(sudo:session): session closed for user root
+ноя 20 19:20:37 userpc sudo[22186]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 19:20:37 userpc sudo[22186]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 19:20:37 userpc sudo[22186]: pam_unix(sudo:session): session closed for user root
+ноя 20 19:26:09 userpc ubuntu-report[6782]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+ноя 20 19:29:38 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.85' (uid=1001 pid=7472 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+ноя 20 19:29:38 userpc systemd[6770]: Starting Tracker metadata extractor...
+ноя 20 19:29:38 userpc sudo[22508]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+ноя 20 19:29:38 userpc sudo[22508]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 19:29:39 userpc dbus-daemon[6801]: [session uid=1001 pid=6801] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+ноя 20 19:29:39 userpc systemd[6770]: Started Tracker metadata extractor.
+ноя 20 19:29:40 userpc sudo[22508]: pam_unix(sudo:session): session closed for user root
+ноя 20 19:29:40 userpc sudo[22584]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+ноя 20 19:29:40 userpc sudo[22584]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+ноя 20 19:29:40 userpc sudo[22584]: pam_unix(sudo:session): session closed for user root
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
